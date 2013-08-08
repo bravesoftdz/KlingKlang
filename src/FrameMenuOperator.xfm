@@ -1,0 +1,65 @@
+inherited frmeMenuOperator: TfrmeMenuOperator
+  VertScrollBar.Range = 350
+  HorzScrollBar.Range = 326
+  inherited Label1: TLabel
+    Width = 165
+    Caption = 'Menu do Operador'
+  end
+  object btnImport: TButton
+    Left = 154
+    Top = 211
+    Width = 172
+    Height = 57
+    Caption = 'Importar CD'#39's'
+    Font.Color = clWhite
+    Font.Height = 19
+    Font.Name = 'MS Shell Dlg'
+    Font.Pitch = fpVariable
+    Font.Style = []
+    Font.Weight = 40
+    ParentColor = True
+    ParentFont = False
+    TabOrder = 2
+    OnClick = btnImportClick
+    OnEnter = ButtonEnter
+    OnExit = ButtonExit
+  end
+  object btnBalance: TButton
+    Left = 154
+    Top = 129
+    Width = 172
+    Height = 57
+    Caption = 'Balan'#231'o'
+    Color = clBlue
+    Font.Color = clWhite
+    Font.Height = 19
+    Font.Name = 'MS Shell Dlg'
+    Font.Pitch = fpVariable
+    Font.Style = []
+    Font.Weight = 40
+    ParentFont = False
+    TabOrder = 1
+    OnClick = btnBalanceClick
+    OnEnter = ButtonEnter
+    OnExit = ButtonExit
+  end
+  object btnManage: TButton
+    Left = 154
+    Top = 293
+    Width = 172
+    Height = 57
+    Caption = 'Gerenciar T'#237'tulos'
+    Font.Color = clWhite
+    Font.Height = 19
+    Font.Name = 'MS Shell Dlg'
+    Font.Pitch = fpVariable
+    Font.Style = []
+    Font.Weight = 40
+    ParentColor = True
+    ParentFont = False
+    TabOrder = 3
+    OnClick = btnManageClick
+    OnEnter = ButtonEnter
+    OnExit = ButtonExit
+  end
+end

@@ -1,0 +1,9 @@
+*.exe
+*.dll
+*.map
+*.ini
+*.zip
+*.~*
+tmp
+data
+.DS_Store

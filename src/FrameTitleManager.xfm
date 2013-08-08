@@ -1,0 +1,154 @@
+inherited frmeTitleManager: TfrmeTitleManager
+  VertScrollBar.Range = 461
+  HorzScrollBar.Range = 470
+  inherited Label1: TLabel
+    Width = 148
+    Caption = 'Gerenciar T'#237'tulos'
+  end
+  object lblAvailTitles: TLabel
+    Left = 15
+    Top = 72
+    Width = 150
+    Height = 13
+    Caption = 'Tit'#250'los dispon'#237'veis na M'#225'quina:'
+    Font.Color = clWhite
+    Font.Height = 11
+    Font.Name = 'MS Shell Dlg'
+    Font.Pitch = fpVariable
+    Font.Style = []
+    Font.Weight = 40
+    ParentFont = False
+  end
+  object lbxTitles: TCheckListBox
+    Left = 13
+    Top = 89
+    Width = 457
+    Height = 318
+    Color = clBlue
+    Font.Color = clWhite
+    Font.Height = 13
+    Font.Name = 'MS Shell Dlg'
+    Font.Pitch = fpVariable
+    Font.Style = []
+    Font.Weight = 40
+    ParentFont = False
+    TabOrder = 6
+    OnClickCheck = lbxTitlesClickCheck
+    OnEnter = lbxTitlesEnter
+    OnExit = lbxTitlesExit
+  end
+  object Label3: TLabel
+    Left = 320
+    Top = 42
+    Width = 93
+    Height = 13
+    Caption = 'Espa'#231'o Dispon'#237'vel:'
+  end
+  object Label4: TLabel
+    Left = 320
+    Top = 57
+    Width = 101
+    Height = 13
+    Caption = 'Espa'#231'o Selecionado:'
+  end
+  object lblAvailable: TLabel
+    Left = 440
+    Top = 42
+    Width = 30
+    Height = 13
+    Alignment = taRightJustify
+    Caption = '10 GB'
+  end
+  object lblSelected: TLabel
+    Left = 427
+    Top = 57
+    Width = 43
+    Height = 13
+    Alignment = taRightJustify
+    Caption = '1000 MB'
+  end
+  object btnHide: TButton
+    Left = 13
+    Top = 436
+    Width = 75
+    Height = 25
+    Caption = 'Esconder'
+    Color = clBlue
+    Font.Color = clWhite
+    Font.Height = 11
+    Font.Name = 'MS Shell Dlg'
+    Font.Pitch = fpVariable
+    Font.Style = []
+    Font.Weight = 40
+    ParentFont = False
+    TabOrder = 7
+    OnClick = btnHideClick
+    OnEnter = ButtonEnter
+    OnExit = ButtonExit
+  end
+  object btnClose: TButton
+    Left = 393
+    Top = 436
+    Width = 75
+    Height = 25
+    Caption = 'Voltar'
+    ParentColor = True
+    TabOrder = 11
+    OnClick = btnCloseClick
+    OnEnter = ButtonEnter
+    OnExit = ButtonExit
+  end
+  object btnShow: TButton
+    Left = 93
+    Top = 436
+    Width = 75
+    Height = 25
+    Caption = 'Mostrar'
+    ParentColor = True
+    TabOrder = 8
+    OnClick = btnShowClick
+    OnEnter = ButtonEnter
+    OnExit = ButtonExit
+  end
+  object btnRemove: TButton
+    Left = 173
+    Top = 436
+    Width = 75
+    Height = 25
+    Caption = 'Remover'
+    ParentColor = True
+    TabOrder = 9
+    OnClick = btnRemoveClick
+    OnEnter = ButtonEnter
+    OnExit = ButtonExit
+  end
+  object Label7: TLabel
+    Left = 12
+    Top = 408
+    Width = 108
+    Height = 16
+    Caption = '(*) => Escondidos '
+    Font.Color = clWhite
+    Font.Height = 13
+    Font.Name = 'MS Shell Dlg'
+    Font.Pitch = fpVariable
+    Font.Style = []
+    Font.Weight = 40
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 320
+    Top = 71
+    Width = 92
+    Height = 13
+    Caption = 'Espa'#231'o Escondido:'
+  end
+  object lblHidden: TLabel
+    Left = 427
+    Top = 71
+    Width = 43
+    Height = 13
+    Alignment = taRightJustify
+    Caption = '1000 MB'
+  end
+end

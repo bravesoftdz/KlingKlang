@@ -1,0 +1,56 @@
+object frmeCover: TfrmeCover
+  Left = 0
+  Top = 0
+  Width = 122
+  Height = 122
+  VertScrollBar.Range = 122
+  HorzScrollBar.Range = 122
+  TabOrder = 0
+  object imgCover: TImage
+    Left = 11
+    Top = 11
+    Width = 100
+    Height = 100
+    Stretch = True
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 11
+    Width = 11
+    Height = 100
+    Align = alLeft
+    BevelOuter = bvNone
+    ParentColor = True
+    TabOrder = 0
+  end
+  object Panel2: TPanel
+    Left = 111
+    Top = 11
+    Width = 11
+    Height = 100
+    Align = alRight
+    BevelOuter = bvNone
+    ParentColor = True
+    TabOrder = 1
+  end
+  object Panel3: TPanel
+    Left = 0
+    Top = 0
+    Width = 122
+    Height = 11
+    Align = alTop
+    BevelOuter = bvNone
+    ParentColor = True
+    TabOrder = 2
+  end
+  object Panel4: TPanel
+    Left = 0
+    Top = 111
+    Width = 122
+    Height = 11
+    Align = alBottom
+    BevelOuter = bvNone
+    ParentColor = True
+    TabOrder = 3
+  end
+end

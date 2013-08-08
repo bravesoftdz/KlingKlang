@@ -1,0 +1,118 @@
+inherited frmeImportCD: TfrmeImportCD
+  VertScrollBar.Range = 461
+  HorzScrollBar.Range = 469
+  inherited Label1: TLabel
+    Width = 119
+    Caption = 'Importar CD'#39's'
+  end
+  object lblAvailTitles: TLabel
+    Left = 12
+    Top = 72
+    Width = 156
+    Height = 13
+    Caption = 'Tit'#250'los dispon'#237'veis no CD Master'
+  end
+  object lbxTitles: TCheckListBox
+    Left = 12
+    Top = 88
+    Width = 457
+    Height = 330
+    Color = clBlue
+    Font.Color = clWhite
+    Font.Height = 13
+    Font.Name = 'MS Shell Dlg'
+    Font.Pitch = fpVariable
+    Font.Style = []
+    Font.Weight = 40
+    ParentFont = False
+    TabOrder = 2
+    OnClickCheck = lbxTitlesClickCheck
+    OnEnter = lbxTitlesEnter
+    OnExit = lbxTitlesExit
+  end
+  object Label3: TLabel
+    Left = 320
+    Top = 56
+    Width = 93
+    Height = 13
+    Caption = 'Espa'#231'o Dispon'#237'vel:'
+  end
+  object Label4: TLabel
+    Left = 320
+    Top = 72
+    Width = 101
+    Height = 13
+    Caption = 'Espa'#231'o Selecionado:'
+  end
+  object btnAll: TButton
+    Left = 13
+    Top = 436
+    Width = 75
+    Height = 25
+    Caption = 'Todos'
+    Color = clBlue
+    Font.Color = clWhite
+    Font.Height = 11
+    Font.Name = 'MS Shell Dlg'
+    Font.Pitch = fpVariable
+    Font.Style = []
+    Font.Weight = 40
+    ParentFont = False
+    TabOrder = 5
+    OnClick = btnAllClick
+    OnEnter = ButtonEnter
+    OnExit = ButtonExit
+  end
+  object btnNone: TButton
+    Left = 93
+    Top = 436
+    Width = 75
+    Height = 25
+    Caption = 'Nenhum'
+    ParentColor = True
+    TabOrder = 6
+    OnClick = btnNoneClick
+    OnEnter = ButtonEnter
+    OnExit = ButtonExit
+  end
+  object btnCopy: TButton
+    Left = 173
+    Top = 436
+    Width = 75
+    Height = 25
+    Caption = 'Copiar'
+    ParentColor = True
+    TabOrder = 7
+    OnClick = btnCopyClick
+    OnEnter = ButtonEnter
+    OnExit = ButtonExit
+  end
+  object btnClose: TButton
+    Left = 393
+    Top = 436
+    Width = 75
+    Height = 25
+    Caption = 'Voltar'
+    ParentColor = True
+    TabOrder = 8
+    OnClick = btnCloseClick
+    OnEnter = ButtonEnter
+    OnExit = ButtonExit
+  end
+  object lblAvailable: TLabel
+    Left = 424
+    Top = 56
+    Width = 45
+    Height = 13
+    Alignment = taRightJustify
+    AutoSize = False
+  end
+  object lblSelected: TLabel
+    Left = 424
+    Top = 72
+    Width = 45
+    Height = 13
+    Alignment = taRightJustify
+    AutoSize = False
+  end
+end

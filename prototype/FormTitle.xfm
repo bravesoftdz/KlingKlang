@@ -1,0 +1,149 @@
+object frmTitle: TfrmTitle
+  Left = 306
+  Top = 178
+  Width = 470
+  Height = 480
+  VertScrollBar.Range = 469
+  HorzScrollBar.Range = 453
+  ActiveControl = lbxTracks
+  BorderStyle = fbsNone
+  Caption = 'Informa'#231#245'es ssobre o t'#237'tulo selecionado'
+  Color = clTeal
+  Constraints.MaxHeight = 480
+  Constraints.MaxWidth = 470
+  Constraints.MinHeight = 480
+  Constraints.MinWidth = 470
+  Font.Color = clWhite
+  Font.Height = 11
+  Font.Name = 'MS Shell Dlg'
+  Font.Pitch = fpVariable
+  Font.Style = []
+  Font.Weight = 40
+  FormStyle = fsStayOnTop
+  KeyPreview = True
+  ParentFont = False
+  Position = poDefault
+  OnKeyDown = FormKeyDown
+  OnKeyPress = FormKeyPress
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  TextWidth = 6
+  object imgCover: TImage
+    Left = 20
+    Top = 16
+    Width = 200
+    Height = 200
+    Stretch = True
+  end
+  object Label1: TLabel
+    Left = 8
+    Top = 228
+    Width = 28
+    Height = 13
+    Caption = 'T'#237'tulo'
+  end
+  object edtTitle: TEdit
+    Left = 8
+    Top = 244
+    Width = 224
+    Height = 21
+    TabStop = False
+    ParentColor = True
+    ReadOnly = True
+    TabOrder = 1
+    Text = 'Tour de France Soundtracks'
+  end
+  object lbxTracks: TListBox
+    Left = 240
+    Top = 24
+    Width = 213
+    Height = 445
+    ItemHeight = 13
+    Items.Strings = (
+      '01 - Prologue'
+      '02 - Tour De France Etape 1'
+      '03 - Tour De France Etape 2'
+      '04 - Tour De France Etape 3'
+      '05 - Chrono'
+      '06 - Vitamin'
+      '07 - Aero Dynamik'
+      '08 - Titanium'
+      '09 - Elektro Kardiogramm'
+      '10 - La Forme'
+      '11 - Regeneration'
+      '12 - Tour De France alo alo alo alo alo alo alo alo alo')
+    ParentColor = True
+    Rows = 12
+    TabOrder = 2
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 268
+    Width = 29
+    Height = 13
+    Caption = 'Artista'
+  end
+  object edtArtist: TEdit
+    Left = 8
+    Top = 284
+    Width = 224
+    Height = 21
+    TabStop = False
+    ParentColor = True
+    ReadOnly = True
+    TabOrder = 4
+    Text = 'Kraftwerk'
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 308
+    Width = 96
+    Height = 13
+    Caption = 'Ano de Lan'#231'amento'
+  end
+  object edtYear: TEdit
+    Left = 8
+    Top = 324
+    Width = 224
+    Height = 21
+    TabStop = False
+    ParentColor = True
+    ReadOnly = True
+    TabOrder = 6
+    Text = '2002'
+  end
+  object Label4: TLabel
+    Left = 8
+    Top = 348
+    Width = 108
+    Height = 13
+    Caption = 'Informa'#231#245'es adicionais'
+  end
+  object mmoDescription: TMemo
+    Left = 8
+    Top = 364
+    Width = 224
+    Height = 105
+    Lines.Strings = (
+      'Mais um album fant'#225'stico dos melhores!')
+    ParentColor = True
+    ReadOnly = True
+    TabOrder = 8
+    TabStop = False
+  end
+  object lblCredits: TLabel
+    Left = 241
+    Top = 7
+    Width = 101
+    Height = 13
+    Caption = 'M'#250'sicas Dispon'#237'veis:'
+    Font.Color = clWhite
+    Font.Height = 11
+    Font.Name = 'MS Shell Dlg'
+    Font.Pitch = fpVariable
+    Font.Style = []
+    Font.Weight = 40
+    ParentFont = False
+  end
+end

@@ -1,0 +1,127 @@
+inherited frmeTitleView: TfrmeTitleView
+  VertScrollBar.Range = 470
+  HorzScrollBar.Range = 467
+  inherited Label1: TLabel
+    Caption = 'Nome do Artista'
+  end
+  object lblTitle: TLabel
+    Left = 16
+    Top = 40
+    Width = 132
+    Height = 25
+    Caption = 'Nome do T'#237'tulo'
+    Font.Color = clWhite
+    Font.Height = 20
+    Font.Name = 'MS Shell Dlg'
+    Font.Pitch = fpVariable
+    Font.Style = []
+    Font.Weight = 40
+    ParentFont = False
+  end
+  object lbxTracks: TListBox
+    Left = 236
+    Top = 35
+    Width = 233
+    Height = 18
+    ItemHeight = 13
+    ParentColor = True
+    TabOrder = 2
+    Visible = False
+  end
+  object lblCredits: TLabel
+    Left = 233
+    Top = 67
+    Width = 101
+    Height = 13
+    Caption = 'M'#250'sicas Dispon'#237'veis:'
+    Font.Color = clWhite
+    Font.Height = 11
+    Font.Name = 'MS Shell Dlg'
+    Font.Pitch = fpVariable
+    Font.Style = []
+    Font.Weight = 40
+    ParentFont = False
+  end
+  object mmoDescription: TMemo
+    Left = 16
+    Top = 348
+    Width = 200
+    Height = 122
+    ParentColor = True
+    ReadOnly = True
+    TabOrder = 4
+    TabStop = False
+  end
+  object Label4: TLabel
+    Left = 16
+    Top = 328
+    Width = 108
+    Height = 13
+    Caption = 'Informa'#231#245'es adicionais'
+  end
+  object edtYear: TEdit
+    Left = 16
+    Top = 304
+    Width = 200
+    Height = 21
+    TabStop = False
+    ParentColor = True
+    ReadOnly = True
+    TabOrder = 6
+  end
+  object Label3: TLabel
+    Left = 16
+    Top = 288
+    Width = 96
+    Height = 13
+    Caption = 'Ano de Lan'#231'amento'
+  end
+  object Panel1: TPanel
+    Left = 16
+    Top = 71
+    Width = 204
+    Height = 204
+    BevelWidth = 2
+    ParentColor = True
+    TabOrder = 8
+    object imgCover: TImage
+      Left = 2
+      Top = 2
+      Width = 200
+      Height = 200
+      Align = alClient
+      Stretch = True
+    end
+  end
+  object mmoTracks: TMemo
+    Left = 234
+    Top = 84
+    Width = 233
+    Height = 386
+    ParentColor = True
+    ReadOnly = True
+    TabOrder = 9
+    TabStop = False
+    WordWrap = False
+  end
+  object slbTrackName: TScrollingLabel
+    Left = 240
+    Top = 100
+    Width = 209
+    Height = 13
+    AutoSize = False
+    Color = clAqua
+    Font.Color = clBlack
+    Font.Height = 11
+    Font.Name = 'MS Shell Dlg'
+    Font.Pitch = fpVariable
+    Font.Style = []
+    Font.Weight = 40
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+    ScrollInterval = 100
+    Text = 'Nome da M'#250'sica'
+    ScrollDirection = sdRightToLeft
+  end
+end

@@ -1,0 +1,115 @@
+object KKData: TKKData
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  OnDestroy = DataModuleDestroy
+  Left = 427
+  Top = 131
+  Height = 165
+  Width = 270
+  object cdsTitles: TClientDataSet
+    Aggregates = <>
+    IndexFieldNames = 'TitleId'
+    Params = <>
+    Left = 36
+    Top = 28
+    object cdsTitlesTitleId: TIntegerField
+      FieldName = 'TitleId'
+    end
+    object cdsTitlesTitleName: TStringField
+      FieldName = 'TitleName'
+      Size = 200
+    end
+    object cdsTitlesArtistName: TStringField
+      FieldName = 'ArtistName'
+      Size = 200
+    end
+    object cdsTitlesTitleCaption: TStringField
+      FieldName = 'TitleCaption'
+      Size = 200
+    end
+    object cdsTitlesReleaseYear: TIntegerField
+      FieldName = 'ReleaseYear'
+    end
+    object cdsTitlesDescription: TMemoField
+      FieldName = 'Description'
+      BlobType = ftMemo
+    end
+    object cdsTitlesVisible: TBooleanField
+      FieldName = 'Visible'
+    end
+    object cdsTitlesSize: TFloatField
+      FieldName = 'Size'
+    end
+    object cdsTitlesTracksPath: TIntegerField
+      FieldName = 'TracksPath'
+    end
+    object cdsTitlesCoverId: TIntegerField
+      FieldName = 'CoverPath'
+    end
+  end
+  object cdsTracks: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    Left = 116
+    Top = 28
+    object cdsTracksTrackId: TIntegerField
+      FieldName = 'TrackId'
+    end
+    object cdsTracksTrackName: TStringField
+      FieldName = 'TrackName'
+      Size = 200
+    end
+    object cdsTracksTrackPath: TIntegerField
+      FieldName = 'TrackPath'
+    end
+    object cdsTracksDuration: TIntegerField
+      FieldName = 'Duration'
+    end
+    object cdsTracksVolume: TIntegerField
+      FieldName = 'Volume'
+    end
+  end
+  object cdsQueue: TClientDataSet
+    Aggregates = <>
+    IndexFieldNames = 'QueuedTime'
+    Params = <>
+    Left = 204
+    Top = 28
+    object cdsQueueQueuedTime: TDateTimeField
+      FieldName = 'QueuedTime'
+    end
+    object cdsQueueTitleId: TIntegerField
+      FieldName = 'TitleId'
+    end
+    object cdsQueueTrackId: TIntegerField
+      FieldName = 'TrackId'
+    end
+  end
+  object cdsState: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    Left = 36
+    Top = 96
+    object cdsStateCreditCount: TIntegerField
+      FieldName = 'CreditCount'
+    end
+    object cdsStateForcedCredits: TIntegerField
+      FieldName = 'ForcedCredits'
+    end
+    object cdsStateVolume: TIntegerField
+      FieldName = 'Volume'
+    end
+  end
+  object cdsRewards: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    Left = 120
+    Top = 96
+  end
+  object cdsGranted: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    Left = 204
+    Top = 96
+  end
+end

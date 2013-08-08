@@ -1,0 +1,44 @@
+
+- Mostrar musica em execução
+- Tem que guardar tudo em caso de Falha de luz:
+- Chaveiro USB(?)
+- Adapação do tubo na saida VGA
+- Se não tiver credito, ignora
+- Ao selecionar a musica voltar para a página principal
+- Fundo azul
+
+----------------------------------------------------
+Comerciante:
+
+- Dar créditos (quando o noteiro agarrar) (max: 20)
+- Mudar volume
+
+----------------------------------------------------
+Premios:
+
+0,11
+0,06
+0,03
+
+20 segundos tocando uma mensg e mostrando uma imagem fullscreen
+
+-----------------------------------------------------
+Administracao
+
+- cada X creditos a maquina trava, pedindo senha
+- travar o HD se for removido
+- habilitar ou desabilitar cd's
+- cadastro de premios
+- copiar musicas
+
+Relatorios
+- Total de creditos vendidos
+- Relatório de premios
+- Comissão do ponto (20% depois de subtrair os premios)
+- Total liquido
+
+
+-----------------------------------------------------
+Propaganda
+
+- A cada cinco minutos passar uma propaganda (screen saver)

@@ -1,0 +1,36 @@
+object frmeBase: TfrmeBase
+  Left = 0
+  Top = 0
+  Width = 480
+  Height = 480
+  VertScrollBar.Range = 37
+  HorzScrollBar.Range = 155
+  Color = clBlue
+  Constraints.MaxHeight = 480
+  Constraints.MaxWidth = 480
+  Constraints.MinHeight = 480
+  Constraints.MinWidth = 480
+  Font.Color = clWhite
+  Font.Height = 11
+  Font.Name = 'MS Shell Dlg'
+  Font.Pitch = fpVariable
+  Font.Style = []
+  Font.Weight = 40
+  ParentColor = False
+  ParentFont = False
+  TabOrder = 0
+  object Label1: TLabel
+    Left = 16
+    Top = 12
+    Width = 139
+    Height = 25
+    Caption = 'T'#237'tulo da Janela'
+    Font.Color = clWhite
+    Font.Height = 20
+    Font.Name = 'MS Shell Dlg'
+    Font.Pitch = fpVariable
+    Font.Style = []
+    Font.Weight = 40
+    ParentFont = False
+  end
+end
